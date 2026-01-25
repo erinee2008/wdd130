@@ -23,12 +23,16 @@ header main footer {
     margin: 0 auto;
 }
 
-h1 h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav p section article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -76,7 +80,8 @@ h2 {
 }
 
 .hero article img {
-    position: absolute
+    position: absolute float: right;
+    width: 125;
 }
 
 .hero article {
