@@ -18,7 +18,9 @@ body {
     color: var(--accent1-color);
 }
 
-header main footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
