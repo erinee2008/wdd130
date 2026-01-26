@@ -82,12 +82,12 @@ h2 {
 .hero article img {
     float: right;
     width: 125px;
-    top: 150px
+    top: 75px
 }
 
 .hero article {
     position: relative;
-    top: 150px;
+    top: 75px;
     width: 100%;
     padding: 16px;
     text-align: left;
