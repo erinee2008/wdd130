@@ -43,8 +43,8 @@ article {
     text-decoration: none;
 }
 
-.socialmedia img {
-    width: 50px;
+.socialmedia a img {
+    width: 30px;
     height: auto;
 }
 
