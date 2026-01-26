@@ -73,7 +73,7 @@ h1 {
 
 h2 {
     position: absolute;
-    width: 80%;
+    width: 75%;
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
