@@ -15,7 +15,6 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
 }
 
 header,
@@ -25,76 +24,85 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+header img {
+    width 150px;
 }
 
-.socialmedia a {
+nav a {
+    margin-left: 20px;
     text-decoration: none;
-
-}
-
-.socialmedia img {
-    width: 50px;
-    height: auto;
+    color: var(--accent1-color);
+    front-weight: bold;
 }
 
 .hero {
     position: relative;
+    background-image: url("https://i.imgur.com/rmiLop5.jpeg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
-
-h2 {
-    position: absolute;
-    width: 75%;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-    opacity: 1;
+.hero h1 {
+    background-color: var(heading-font);
+    color: white;
+    text-align;
+    center;
+    padding: 15px;
+    margin-top: 20px
 }
 
 .hero article {
-    position: relative;
-    width: 100%;
-    padding: 16px;
-    text-align: left;
-    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
 }
 
-.hero p {
-    color: #000;
+.hero article img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    order: 2;
+}
+
+h2 {
+    background-color: var(--accent1-color);
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+
+}
+
+section p {
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+.socialmedia a img {
+    width: 30px;
+    margin-left: 10px;
 }
