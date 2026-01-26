@@ -44,21 +44,26 @@ nav a {
 
 .hero {
     position: relative;
-    background-image: url("https://i.imgur.com/rmiLop5.jpeg");
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero h1 {
-    background-color: var(heading-font);
+    position: absolute;
+    top: 30 px;
+    left: 0;
+    width: 100%;
+    background-color: var(--accent1-color);
     color: white;
     text-align;
     center;
     padding: 15px;
-    margin-top: 20px
+    font-family: var(--heading-font)
 }
 
 .hero article {
