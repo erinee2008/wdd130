@@ -70,8 +70,6 @@ h1 {
 }
 
 h2 {
-    position: absolute;
-    width: 75%;
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
@@ -86,6 +84,7 @@ h2 {
 
 .hero article {
     position: relative;
+    top: -300px;
     width: 100%;
     padding: 16px;
     text-align: left;
