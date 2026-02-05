@@ -95,17 +95,17 @@ h2 {
     color: #000;
 }
 
-.history-content {
+.history-grid {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.history-content p {
+.history-grid p {
     flex: 1;
 }
 
-.history-content img {
+.history-grid img {
     width: 200px;
     height: auto;
 }
