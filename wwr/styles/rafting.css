@@ -18,6 +18,32 @@ body {
     color: var(--secondary-color);
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #264653;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
 header,
 main,
 footer {
@@ -36,8 +62,19 @@ nav,
 p,
 section,
 article {
-    margin: 8px;
-    padding: 0px;
+    padding: 8px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: auto;
+    boader: 1px solid #000;
 }
 
 .socialmedia a {
@@ -144,5 +181,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px
+    padding: 20px;
+    background-color: #264653;
+    margin-top: 30px;
 }
