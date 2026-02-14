@@ -148,9 +148,10 @@ main section {
 }
 
 .history-grid {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
     gap: 20px;
+    align-items: start;
 }
 
 .history-grid p {
@@ -158,8 +159,9 @@ main section {
 }
 
 .history-grid img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    object-fit: contain;
 }
 
 .adventure-grid {
