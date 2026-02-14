@@ -302,11 +302,12 @@ button[type="submit"]:hover {
 }
 
 .home-features {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 840px;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 .feature-item {
@@ -318,4 +319,29 @@ button[type="submit"]:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    margin: 20px auto;
+}
+
+.newsletter form {
+    margin-top: 15px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
